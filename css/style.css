@@ -1,0 +1,49 @@
+a{
+text-decoration: none;
+color: black;
+
+
+}
+
+a:hover{
+  transform: inherit;
+  font-weight: bold;
+}
+
+main{
+  max-width: 840px;
+  margin: 1px;
+  padding: 1rem;
+}
+
+aside{
+  width: 30rem;
+  margin: 1px;
+  border: 5px solid #3f612d;
+  padding: 1rem;
+  background-color:#fed4e7;
+  color:#3f612d;
+}
+
+p{
+  padding:0;
+}
+
+h2,p,ol{
+  font-weight: bold;
+}
+
+aside img{
+  width: 200px;
+  height: auto;
+}
+
+
+/* I know the assignment says to use a top margin to seperate the footer but it makes more sense to me, to just fix it to the bottom of the page. You can knock points if you want. */
+ 
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}

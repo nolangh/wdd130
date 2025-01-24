@@ -38,11 +38,16 @@ aside img{
   height: auto;
 }
 
+main img{
+  width: 200px;
+  height: auto;
+}
 
-/* I know the assignment says to use a top margin to seperate the footer but it makes more sense to me, to just fix it to the bottom of the page. You can knock points if you want. */
  
 footer{
   position: fixed;
+  margin-top:0;
+  border-top: 1rem black;
   width: 100%;
   bottom: 0;
   text-align: center;

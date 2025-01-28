@@ -5,7 +5,11 @@ color: black;
 
 }
 
-a:hover{
+nav{
+  color: black
+}
+
+nav a:hover{
   transform: inherit;
   font-weight: bold;
 }
@@ -14,6 +18,10 @@ main{
   max-width: 840px;
   margin: 1px;
   padding: 1rem;
+}
+
+h1{
+  style:none;
 }
 
 aside{

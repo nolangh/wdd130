@@ -11,12 +11,12 @@
 }
 
 :root {
-  primary-color: #ceb992;
-  secondary-color: #36311f;
-  accent1-color: #cacaaa;
-  accent2-color: #020300;
-  heading-font: "Bebas Neue", sans-serif;
-  paragraph-font: "Prompt", sans-serif;
+  --primary-color: #ceb992;
+  --secondary-color: #36311f;
+  --accent1-color: #cacaaa;
+  --accent2-color: #020300;
+  --heading-font: "Bebas Neue", sans-serif;
+  --paragraph-font: "Prompt", sans-serif;
 }
 
 body {

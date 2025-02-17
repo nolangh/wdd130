@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Nolan,wdd130,learn">
+    <meta name="author" content="Nolan Higgins">
+    <title>White Water Rafting - Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="info-container">
+            <div class="compInfo">
+                <h2>Company Info</h2>
+                <p><strong>Address:</strong> 50 N Temple, Salt Lake City, UT 84150</p>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Email:</strong> <a href="mailto:info@whitewaterrafting.com">info@whitewaterrafting.com</a>
+                </p>
+                <div class="map_container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.5732291881895!2d-111.89498282261741!3d40.771410371384825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f547e3c8317f%3A0x738fa83ab38d07e7!2s50%20E%20North%20Temple%20St%2C%20Salt%20Lake%20City%2C%20UT%2084150!5e0!3m2!1sen!2sus!4v1739821804357!5m2!1sen!2sus"
+                        class="map-iframe" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <p>Purpose of Message:</p>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label><br>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="employee-profiles">
+            <h2>Meet The Team</h2>
+            <div class="employee">
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <p><strong>Name:</strong> John Doe</p>
+                <p><strong>Job Title:</strong> Adventure Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <p><strong>Name:</strong> Jane Smith</p>
+                <p><strong>Job Title:</strong> Customer Service</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <p><strong>Name:</strong> Emily Johnson</p>
+                <p><strong>Job Title:</strong> Marketing Specialist</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+        <!-- Wireframe link https://app.moqups.com/4FZhsrNyXO64Z9zgOdgK5cAcVzWlPNo6/view/page/ad64222d5 -->
+        <p>&copy; 2024 White Water Rafting Adventures | Nolan Higgins</p>
+        <div class="social">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

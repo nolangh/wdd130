@@ -157,6 +157,41 @@ header nav ul {
 	font-weight: bold;
 }
 
+/* Info Container */
+.info-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.compInfo,
+.contact-form {
+	width: 48%;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+/* Employee Profiles */
+.employee-profiles {
+	text-align: center;
+	padding: 20px;
+}
+
+.employee {
+	display: inline-block;
+	width: 30%;
+	margin: 10px;
+	background-color: #f0f0f0;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.employee img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
 /* Footer */
 footer {
 	display: flex;
@@ -178,4 +213,11 @@ footer .social {
 footer .social a img {
 	height: 25px;
 	width: auto;
+}
+
+/* Map */
+.map-iframe {
+	width: 100%;
+	height: 200px;
+	border: 0;
 }

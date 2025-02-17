@@ -10,6 +10,10 @@
 
 /* Global Styles */
 body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
 	background-color: white;
 }
 
@@ -47,6 +51,8 @@ header {
 
 header img {
 	grid-column: 1;
+	width: 100px;
+	height: auto;
 }
 
 header nav {
@@ -161,7 +167,8 @@ header nav ul {
 .info-container {
 	display: flex;
 	justify-content: space-between;
-	padding: 20px;
+	padding: 5px;
+	padding-bottom: 0;
 }
 
 .compInfo,
@@ -172,24 +179,40 @@ header nav ul {
 }
 
 /* Employee Profiles */
+.employee-profile-section {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background: salmon;
+}
 .employee-profiles {
 	text-align: center;
-	padding: 20px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	margin: 5px;
 }
 
 .employee {
 	display: inline-block;
-	width: 30%;
+	width: 33.33%;
 	margin: 10px;
 	background-color: #f0f0f0;
 	padding: 10px;
 	border: 1px solid #ccc;
+	vertical-align: top;
 }
 
 .employee img {
 	width: 100%;
 	height: auto;
 	margin-bottom: 10px;
+}
+
+main {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 /* Footer */

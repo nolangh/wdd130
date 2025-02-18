@@ -421,9 +421,10 @@ table {
 
 th,
 td {
-	border: 1px solid #ccc;
+	font-family: var(--paragraph-font);
+	color: black;
 	padding: 10px;
-	text-align: left;
+	border: 1px solid #ccc;
 }
 
 th {

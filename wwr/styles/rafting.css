@@ -68,6 +68,18 @@ header nav ul {
 	margin: 0;
 }
 
+header nav a {
+	text-decoration: none;
+	color: black;
+	font-family: "Prompt", sans-serif;
+	font-weight: bold;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+	color: var(--primary-color);
+}
+
 /* Hero Section */
 .hero {
 	position: relative;
@@ -349,4 +361,153 @@ article p {
 header nav a.active {
 	text-decoration: underline;
 	font-weight: bold;
+}
+
+/* Trips page */
+
+.trips-hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	margin-top: 4rem;
+}
+
+.trips-hero h1 {
+	font-size: 2rem;
+	color: #36311f;
+}
+
+.trips-hero p {
+	font-size: 1rem;
+	color: black;
+}
+
+.trips-hero button {
+	align-items: center;
+}
+
+.trip-descriptions {
+	margin: 20px 0;
+}
+
+.trip .trip {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.trip img {
+	width: 150px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.trip h3 {
+	margin: 0;
+}
+
+.trips-table {
+	margin: 20px 0;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+.carousel {
+	max-height: 500px;
+}
+
+.carousel-inner img {
+	max-height: 500px;
+	object-fit: cover;
+}
+
+.carousel-indicators {
+	bottom: 10px;
+}
+
+.carousel-indicators button {
+	background-color: white;
+}
+
+.carousel-indicators .active {
+	background-color: #000;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: black;
+	border-radius: 50%;
+	color: white;
+	padding: 10px;
+}
+
+.carousel-caption {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+}
+
+.carousel-caption h5 {
+	font-family: var(--heading-font);
+	color: white;
+}
+
+.carousel-caption p {
+	font-family: var(--paragraph-font);
+	color: white;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.button-container button {
+	padding: 10px 20px;
+	background-color: white;
+	color: white;
+	border: solid 2px black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button-container button a {
+	color: black;
+	text-decoration: none;
+}
+
+.book-trip-button {
+	background-color: white;
+	color: black;
+	border: solid 2px black;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.book-trip-button a {
+	color: black;
+	text-decoration: none;
+}
+
+.book-trip-button:hover {
+	background-color: darken(var(--primary-color), 10%);
 }

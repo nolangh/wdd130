@@ -186,7 +186,7 @@ header nav a:hover {
 .compInfo,
 .contact-form {
 	width: 48%;
-	border: 1px solid #ccc;
+	border: 2px solid black;
 	padding: 10px;
 	font-family: var(--paragraph-font);
 }
@@ -201,7 +201,7 @@ header nav a:hover {
 .employee-profiles {
 	text-align: center;
 	padding: 5px;
-	border: 1px solid #ccc;
+	border: 2px solid black;
 	margin: 5px;
 }
 
@@ -211,7 +211,7 @@ header nav a:hover {
 	margin: 10px;
 	background-color: #f0f0f0;
 	padding: 10px;
-	border: 1px solid #ccc;
+	border: 2px solid black;
 	vertical-align: top;
 }
 
@@ -235,6 +235,7 @@ footer {
 	align-items: center;
 	padding: 10px 20px;
 	background-color: black;
+	border: 2px solid black;
 }
 
 footer p {
@@ -511,4 +512,12 @@ th {
 
 .book-trip-button:hover {
 	background-color: darken(var(--primary-color), 10%);
+}
+
+.contact-h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 275%;
+	width: 100%;
 }

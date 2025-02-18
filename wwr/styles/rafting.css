@@ -50,7 +50,7 @@ header {
 
 header img {
 	grid-column: 1;
-	width: 100px;
+	width: 80px;
 	height: auto;
 }
 
@@ -230,6 +230,10 @@ footer p {
 	color: white;
 }
 
+footer a {
+	color: white;
+}
+
 footer .social {
 	display: flex;
 	gap: 10px;
@@ -238,6 +242,7 @@ footer .social {
 footer .social a img {
 	height: 25px;
 	width: auto;
+	color: white;
 }
 
 .map-iframe {
@@ -324,6 +329,15 @@ article p {
 
 .grid-item {
 	text-align: center;
+}
+
+.grid-item h3 {
+	font-family: var(--heading-font);
+}
+
+.grid-item p {
+	color: black;
+	font-family: var(--paragraph-font);
 }
 
 .grid-item img {

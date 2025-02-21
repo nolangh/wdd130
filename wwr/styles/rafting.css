@@ -489,10 +489,11 @@ th {
 	border: solid 2px black;
 	border-radius: 5px;
 	cursor: pointer;
+	text-decoration: none;
+	color: black;
 }
 
-.button-container button a {
-	color: black;
+.button-container a {
 	text-decoration: none;
 }
 
@@ -505,13 +506,8 @@ th {
 	cursor: pointer;
 }
 
-.book-trip-button a {
-	color: black;
+td a {
 	text-decoration: none;
-}
-
-.book-trip-button:hover {
-	background-color: darken(var(--primary-color), 10%);
 }
 
 .contact-h1 {
